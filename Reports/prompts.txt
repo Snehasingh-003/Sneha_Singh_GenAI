@@ -1,0 +1,462 @@
+Generate User Stories for OrangeHRM Login Module
+
+Role: Act as a Senior Business Analyst and QA Lead.
+
+Context:
+We are testing the Login Module of the OrangeHRM application.
+
+Task:
+Create 3 detailed User Stories for the Login Module.
+
+Requirements:
+1. Use Agile User Story format:
+   "As a <user>, I want <feature>, so that <benefit>."
+2. Include:
+   - User Story ID
+   - Title
+   - Description
+   - Acceptance Criteria
+3. Acceptance Criteria should be clear, testable, and measurable.
+4. Cover the following functionalities:
+   - User Login
+   - Forgot Password
+   - Copyright Link Verification
+5. Use professional QA and BA terminology.
+
+Output Format:
+- User Story ID
+- User Story Title
+- User Story Description
+- Acceptance Criteria
+
+
+
+------------------------------------------------------------------------------------
+
+Generate Acceptance Criteria for User Stories
+
+
+Role: Act as a Product Owner and QA Analyst.
+
+Context:
+The application under test is OrangeHRM Login Module.
+
+Task:
+Generate detailed Acceptance Criteria for the following user stories:
+1. User Login
+2. Forgot Password
+3. Copyright Link Verification
+
+Requirements:
+1. Assign unique Acceptance Criteria IDs.
+2. Acceptance Criteria must be testable.
+3. Follow INVEST and Agile best practices.
+4. Ensure complete functional coverage.
+
+Output Format:
+- User Story ID
+- Acceptance Criteria ID
+- Acceptance Criteria Description
+
+
+
+--------------------------------------------------------------------------------------------
+
+Generate Test Cases
+
+Role: Act as a Senior QA Engineer.
+
+Context:
+The application under test is OrangeHRM Login Module.
+
+Task:
+Create detailed test cases based on the provided User Stories and Acceptance Criteria.
+
+Requirements:
+1. Include positive, negative, and validation scenarios.
+2. Create unique Test Case IDs.
+3. Include complete test execution details.
+4. Use professional QA terminology.
+
+Output Columns:
+- Test Case ID
+- Requirement/User Story ID
+- Test Case Name
+- Pre-Condition
+- Test Data
+- Test Steps
+- Expected Result
+- Priority
+
+Generate comprehensive test cases for:
+- User Login
+- Forgot Password
+- Copyright Link Verification
+
+
+------------------------------------------------------------------------------------------------
+
+Generate Requirement Traceability Matrix (RTM)
+
+
+Role: Act as a Senior Test Manager.
+
+Context:
+The application under test is OrangeHRM Login Module.
+
+Task:
+Create a Requirement Traceability Matrix (RTM) by mapping User Stories to Test Cases.
+
+Requirements:
+1. Ensure 100% requirement coverage.
+2. Each User Story must be linked to one or more Test Cases.
+3. Use traceability best practices.
+4. Include execution status.
+
+Output Columns:
+- Requirement ID
+- User Story Description
+- Test Case ID
+- Test Case Description
+- Test Status
+
+User Stories:
+1. User Login
+2. Forgot Password
+3. Copyright Link Verification
+
+------------------------------------------------------------------------------------------------------
+
+
+Generate Payment Gateway Test Cases
+
+role: Act as a senior test engineer.
+context: We are testing the payment gateway.
+Task: Generate structured test artifact in an excel sheet for the payment gateway application.
+Input: user provide card holder name, card number, expiry date and cvv, check the checkbox and then click on payment button.
+constraints: 
+1. create at least 10 test cases.
+2. include positive negative and boundary scenarios.
+3. each test case has unique test id.
+4. assign priority as low, medium, high.
+5. assign severity as critical, major and minor.
+6. use professional qa terminology.
+<br>
+<br>
+output: create an excel ready test artifact having these columns:
+-Test case ID
+-Test Steps
+-Test case name
+-Input Data
+-Expected result
+-Actual Result
+-Test Environment
+-Test case priority
+-Execution status
+-Bug Severity
+-Bug priority
+-Notes
+---------------------------------------------------------------------------------------------
+
+Generate Test Plan
+
+
+Role: Act as a Senior QA Lead.
+
+Context:
+Testing is being performed on the OrangeHRM Login Module.
+
+Task:
+Create a detailed Test Plan document.
+
+Include:
+1. Project Overview
+2. Scope of Testing
+3. Objectives
+4. Features to be Tested
+5. Features Not to be Tested
+6. Test Approach
+7. Test Environment
+8. Test Data Strategy
+9. Resource Planning
+10. Roles and Responsibilities
+11. Risk Management
+12. Entry Criteria
+13. Exit Criteria
+14. Deliverables
+15. Test Schedule
+
+Requirements:
+1. Use professional QA standards.
+2. Include tables where appropriate.
+3. Structure content clearly using headings and bullet points.
+4. Make the document suitable for project submission.
+
+
+
+------------------------------------------------------------------------------------------------------
+
+Defect report prompt
+
+Act as a Senior QA Engineer.
+
+Application: SauceDemo
+Website: https://www.saucedemo.com/
+
+Using the defects identified during testing, create a professional Defect Report.
+
+Use the following columns:
+
+Defect ID
+User Type
+Defect Summary
+Module
+Severity
+Priority
+Defect Type
+Status
+
+Rules:
+1. Do not assume missing information.
+2. Use professional QA terminology.
+3. Write concise but clear defect summaries.
+4. Classify each defect correctly.
+5. Assign severity and priority based on business impact.
+6. Mark status as Open.
+7. Generate all identified defects from DF_01 to DF_17.
+8. Present the output in tabular format suitable for Excel.
+
+------------------------------------------------------------------------------------------------------------
+
+BUG REPORT PROMPT
+
+Act as a Senior QA Analyst.
+
+Create a detailed Bug Report document for all identified SauceDemo defects.
+
+Use the following template for every bug:
+
+Bug ID:
+Requirement ID:
+Test Case ID:
+Bug Title:
+Module:
+Feature:
+Environment:
+Build/Version:
+Browser:
+Severity:
+Priority:
+Defect Type:
+Preconditions:
+Test Data:
+Steps to Reproduce:
+Expected Result:
+Actual Result:
+Error Message:
+Evidence:
+Status:
+Confidence Level:
+
+Rules:
+
+1. Do not assume a defect exists only because a test failed.
+2. First classify the failure.
+3. Distinguish application defects from automation failures.
+4. Do not invent missing information.
+5. If information is unavailable, write "Not Available".
+6. Steps must be clear and reproducible.
+7. Expected and actual results must be clearly separated.
+8. Assign severity based on business impact.
+9. Assign priority based on urgency and release impact.
+10. Use professional defect-management terminology.
+11. Do not include sensitive or real user information.
+12. Provide confidence level for defect classification.
+
+----------------------------------------------------------------------------------------------------------
+
+BUG ANALYSIS REPORT PROMPT
+
+
+Act as a QA Lead.
+
+Create a Bug Analysis Report for SauceDemo application defects.
+
+Use the following columns:
+
+Defect ID
+Defect Summary
+Root Cause Category
+Failure Classification
+Application Defect (Yes/No)
+Automation Defect (Yes/No)
+Test Data Issue (Yes/No)
+Environment/Infrastructure Issue (Yes/No)
+Network/API Issue (Yes/No)
+Configuration Issue (Yes/No)
+Requirement/Test Case Issue (Yes/No)
+Unknown/Insufficient Evidence (Yes/No)
+Severity
+Priority
+Current Status
+Analysis Comments
+
+Classification Rules:
+
+1. Application Defect
+2. Automation Defect
+3. Test Data Issue
+4. Environment/Infrastructure Issue
+5. Network/API Issue
+6. Configuration Issue
+7. Requirement/Test Case Issue
+8. Unknown/Insufficient Evidence
+
+Rules:
+- Analyze every defect individually.
+- Do not randomly assign root causes.
+- Use Yes/No values instead of ticks.
+- Provide professional QA reasoning.
+- Generate analysis for DF_01 to DF_17.
+``-------------------------------------------------------------------------------------------------
+
+
+TEST EXECUTION REPORT PROMPT
+
+
+Act as a Test Lead.
+
+Generate a complete Test Execution Report for SauceDemo.
+
+The report should include execution of overall application functionality including:
+
+Login
+Logout
+Products
+Cart
+Checkout
+Sorting
+Menu
+Navigation
+Footer Links
+Social Media Links
+Error Handling
+
+Use the following columns:
+
+Test Case ID
+Requirement ID
+Module
+Test Case Description
+Execution Date
+Tester Name
+Test Status
+Defect ID
+Comments
+
+Rules:
+
+1. Include both Passed and Failed test cases.
+2. Failed test cases must reference related defect IDs.
+3. Passed test cases should not contain defect IDs.
+4. Overall execution must cover the full SauceDemo website.
+5. Use realistic execution statistics.
+6. Provide a summary section containing:
+   - Total Test Cases
+   - Executed
+   - Passed
+   - Failed
+   - Blocked
+   - Pass Percentage
+
+Output in Excel-friendly format.
+
+
+--------------------------------------------------------------------------------------------------------------
+
+TEST STRATEGY REPORT PROMPT
+
+Act as a QA Manager.
+
+Create a professional Test Strategy Report for SauceDemo.
+
+The report must contain the following sections:
+
+1. Introduction
+2. Test Objectives
+3. Overall Testing Approach
+4. Scope of Testing
+5. Types of Testing
+6. Test Levels
+7. Test Environment
+8. Test Data Strategy
+9. Test Tools
+10. Defect Management Process
+11. Roles and Responsibilities
+12. Risk Management
+13. Entry Criteria
+14. Exit Criteria
+15. Deliverables
+16. Metrics and Reporting
+17. Assumptions and Dependencies
+18. Approval Process
+
+Rules:
+
+1. Use professional QA documentation format.
+2. Use headings, sub-headings and bullet points.
+3. Include SauceDemo-specific examples.
+4. Present information in a mix of tables and bullet points.
+5. Format suitable for Word document submission.
+6. Avoid generic content.
+
+----------------------------------------------------------------------------------------------------------
+
+generate test data
+
+Generate a comprehensive Test Data Report for the SauceDemo Website (https://www.saucedemo.com).
+
+The report should cover all major functionalities of the application including:
+
+1. Login
+2. Inventory/Product Listing
+3. Product Details
+4. Add to Cart
+5. Remove from Cart
+6. Cart Management
+7. Product Sorting (A-Z, Z-A, Low-High, High-Low)
+8. Checkout Information
+9. Checkout Overview
+10. Order Completion
+11. Logout
+12. Reset App State
+
+Use the following template and provide realistic test data covering Positive, Negative, Boundary, and Invalid scenarios.
+
+Columns:
+
+Test Data ID
+Requirement ID
+Module
+Feature
+Test Data Type
+Field Name
+Test Data Value
+Data Category (Positive/Negative/Boundary/Invalid)
+Purpose
+Expected Outcome
+Created By
+Version
+Remarks
+
+Guidelines:
+- Generate at least 40-50 test data records.
+- Include all standard SauceDemo users:
+  - standard_user
+  - locked_out_user
+  - problem_user
+  - performance_glitch_user
+  - error_user
+ -------------------------------------------------------------------------------------------------------------
+
+
