@@ -1,0 +1,6 @@
+
+
+# Python packages required for the AI testing project
+langchain
+langchain-huggingface
+python-dotenv
