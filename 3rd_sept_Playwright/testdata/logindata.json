@@ -1,0 +1,22 @@
+{
+    "login":
+       {
+        "Username":"apex_user",
+        "Password":"Password123!"
+       },
+       "beneficiary":
+       {
+        "name": "John Doe",
+        "accountNumber": "1234567890",
+        "bank": "Bank of America"
+       },
+       "Funds":{
+        "Transfer Type":"Between My Accounts",
+        "From Account":"Checking ($4250)",
+        "To Account":"Savings ($18400)",
+        "Transfer Amount":"400"
+
+        
+       }
+    
+}
